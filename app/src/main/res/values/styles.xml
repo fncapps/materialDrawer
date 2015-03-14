@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyNavigationDrawerTheme" parent="MaterialNavigationDrawerTheme.Light.DarkActionBar">
+        <item name="colorPrimary">#c00</item>
+        <item name="colorPrimaryDark">#0c0</item>
+        <item name="colorAccent">#00c</item>
+    </style>
+
+    <style name="MySubheaderTheme">
+        <item name="subheaderTitleColor">#F00</item>
+    </style>
+
+    <style name="MySectionTheme" >
+        <item name="sectionColorIcon">#FF2D2D2D</item>
+        <item name="sectionColorText">#FF2D2D2D</item>
+        <item name="sectionColorNotification">#FF2D2D2D</item>
+        <item name="sectionBackgroundColorPressed">#160E4A75</item>
+        <item name="sectionBackgroundColorSelected">#200E4A75</item>
+        <item name="sectionBackgroundColor">#00CFDBE3</item>
+    </style>
+
+    <style name="MyNavigationDrawerThemeCustom" parent="MyNavigationDrawerTheme" >
+        <!-- Other customization -->
+        <item name="drawerColor">#88c</item>
+        <item name="sectionStyle">@style/MySectionTheme</item>
+        <item name="subheaderStyle">@style/MySubheaderTheme</item>
+    </style>
+</resources>
